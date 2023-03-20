@@ -3,19 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+header{
+    text-align: center;
     background-color: black;
     color: white;
-    width: 50%;
 }
-p{
-    background-color: blue;
-    color: white;
-    width: 50%;
-}
-header{
+.compras{
     display: flex;
-    text-align: center;
-    justify-content: space-between;
-    align-self: center;
+    justify-content: space-around;
+    background-color: darkred;
+    color: white;
+}
+#elemento1{
+    color: red ;
+    font-size: 2rem;
 }
